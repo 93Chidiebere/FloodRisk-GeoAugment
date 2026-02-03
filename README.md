@@ -28,10 +28,7 @@ The code is intended to support **reproducibility of experimental behavior**, no
 │ ├── ClassificationFloodExtent.ipynb
 │
 ├── data/
-│ └── README.md # Data access instructions (no raw data stored)
-│
-├── geoaugment/
-│ └── synthetic_labels.py
+│ └── .tif files (DEM and real flood labels)
 │
 ├── README.md
 ```
