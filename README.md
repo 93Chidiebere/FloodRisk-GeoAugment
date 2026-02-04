@@ -39,14 +39,14 @@ The code is intended to support **reproducibility of experimental behavior**, no
 ## Data Sources
 
 This study uses **publicly available geospatial datasets**.  
-Raw datasets are **not included** in this repository due to size and licensing considerations.
+Raw datasets are in the repository; the digital elevation model is titled "LagosDEM.tif", while the other 3 files are real flood labels of the same Lagos from USGS
 
 ### Digital Elevation Model (DEM)
-- **Source:** NASA / USGS Shuttle Radar Topography Mission (SRTM)
+- **Source:** NASA / USGS Shuttle Radar Topography Mission (SRTM) - https://earthexplorer.usgs.gov/
 - **Usage:** Terrain-derived features for flood modeling
 
 ### Flood Extent Labels
-- **Source:** Copernicus Emergency Management Service (EMS)
+- **Source:** Copernicus Emergency Management Service (EMS) - https://emergency.copernicus.eu/data/
 - **Usage:** Observed flood extent labels (reference supervision)
 
 All datasets correspond to **Lagos State, Nigeria**, a flood-prone, data-scarce urban region.
